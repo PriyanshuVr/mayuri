@@ -6,6 +6,8 @@ import FeedbackSlider from "../core/component/feedback_slider";
 import GridMenu from "../core/component/grid_menu";
 import Intro from "@/core/component/intro";
 import Intro2 from "@/core/component/intro2";
+import FirmCol from "@/core/component/firm_col";
+import HomeLast from "@/core/component/home_last";
 
 export default function Home_Page() {
   return (
@@ -28,7 +30,13 @@ export default function Home_Page() {
           <GridMenu />
         </div>
       </div>
+      <div className="mx-40">
+          <FirmCol />
+      </div>
       <FeedbackSlider />
+      <div className="mx-40">
+          <HomeLast />
+      </div>
       <div className="bg-[#f7f2ec]">
         <div className="mx-40">
           <Footer2 />

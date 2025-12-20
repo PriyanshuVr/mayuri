@@ -39,7 +39,7 @@ const menu = [
 export default function GridMenu() {
   return (
     <div className="bg-[#f7f2ec] py-12">
-      <h2 className="text-left text-4xl font-serif mb-16 text-[#3a2f23]">
+      <h2 className="text-left text-4xl font-serif mb-13 text-[#3a2f23]">
         Legal Practice Areas
       </h2>
       <div className="flex flex-wrap justify-center gap-10">
