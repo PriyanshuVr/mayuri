@@ -44,7 +44,7 @@ export default function GridMenu() {
       </h2>
       <div className="flex flex-wrap justify-center gap-10">
         {menu.map((item, index) => (
-          <div className="w-[330px]">
+          <div className="w-[370px]">
             <div className="relative w-full h-[250px]">
               <Image
                 src={item.image}
