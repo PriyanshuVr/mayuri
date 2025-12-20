@@ -1,3 +1,4 @@
+import FirmPage1 from "@/core/component/firm_page1";
 import Header from "../../core/component/header";
 import Header2 from "../../core/component/header2";
 import Footer from "@/core/component/footer";
@@ -6,6 +7,7 @@ import Footer3 from "@/core/component/footer3";
 import Footer4 from "@/core/component/footer4";
 import ServicesSection from "@/core/component/practice_areas";
 import Image from "next/image";
+import FirmPage2 from "@/core/component/firm_page2";
 
 export default function OurFirm_Page() {
   return (
@@ -19,6 +21,8 @@ export default function OurFirm_Page() {
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif mb-28 mt-20 text-[#372d1f] text-center">
           OUR FIRM
         </h1>
+        <FirmPage1 />
+        <FirmPage2 />
       </div>
       <Footer4 />
       <div className="bg-[#f7f2ec]">
