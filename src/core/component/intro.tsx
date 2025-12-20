@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Intro() {
   return (
-    <div className="relative h-120 w-full overflow-hidden my-1 align-items-top">
+    <div className="relative h-120 w-full overflow-hidden my-1">
       <Image
         src="/statue.png"
         alt="Library"

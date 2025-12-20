@@ -5,6 +5,7 @@ import Footer2 from "../core/component/footer2";
 import FeedbackSlider from "../core/component/feedback_slider";
 import GridMenu from "../core/component/grid_menu";
 import Intro from "@/core/component/intro";
+import Intro2 from "@/core/component/intro2";
 
 export default function Home_Page() {
   return (
@@ -16,8 +17,11 @@ export default function Home_Page() {
         <div className="w-full h-0.5 bg-[#8f662d] my-2.5"></div>
         <div className="mx-40">
           <Header2 />
-          <Intro/>
+          <Intro />
         </div>
+      </div>
+      <div className="mx-40">
+        <Intro2 />
       </div>
       <div className="bg-[#f7f2ec]">
         <div className="mx-40">
