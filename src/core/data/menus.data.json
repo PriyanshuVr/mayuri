@@ -1,0 +1,18 @@
+[
+  {
+    "title": "HOME",
+    "link": "/"
+  },
+  {
+    "title": "OUR FIRM",
+    "link": "/OurFirm"
+  },
+  {
+    "title": "PRACTICE AREAS",
+    "link": "/PracticeAreas"
+  },
+  {
+    "title": "CONTACT US",
+    "link": "/ContactUs"
+  }
+]
