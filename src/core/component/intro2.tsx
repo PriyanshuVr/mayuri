@@ -33,7 +33,7 @@ export default function Intro2() {
             className="rounded-2xl object-cover"
           />
 
-          <div className="absolute -left-10 md:-left-31 bottom-5 md:bottom-7 rounded-xl shadow-xl">
+          <div className="absolute -left-8 md:-left-31 bottom-5 md:bottom-7 rounded-xl shadow-xl">
             <Image
               src="/statue2.png"
               alt="Justice statue"
