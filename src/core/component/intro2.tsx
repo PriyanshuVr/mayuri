@@ -2,10 +2,12 @@ import Image from "next/image";
 
 export default function Intro2() {
   return (
-    <div className="max-w-6xl mx-auto px-6 my-24">
-      <div className="grid grid-cols-2 gap-20 items-center">
+    <div className="max-w-6xl mx-auto px-6 my-16 md:my-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
+
+        {/* Text */}
         <div className="space-y-6 max-w-lg">
-          <p className="text-base text-gray-700 leading-relaxed">
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">
             <span className="text-[#8f662d] font-semibold">
               Mayuri Yadav & Associates
             </span>
@@ -16,14 +18,15 @@ export default function Intro2() {
             rights and secure the best possible outcomes.
           </p>
 
-          <p className="text-base text-gray-700 leading-relaxed">
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">
             With expertise spanning Civil, Criminal, Matrimonial, Property, and
             Cheque Bounce matters, we provide comprehensive representation before
             District Courts, Tribunals, High Courts, and the Supreme Court of India.
           </p>
         </div>
 
-        <div className="relative w-fit ml-auto">
+        {/* Images */}
+        <div className="relative w-fit mx-auto md:ml-auto">
           <Image
             src="/profile2.png"
             alt="Mayuri Yadav"
@@ -32,12 +35,13 @@ export default function Intro2() {
             className="rounded-2xl object-cover"
           />
 
-          <div className="absolute -left-31 bottom-7 rounded-xl shadow-xl">
+          <div className="absolute -left-16 md:-left-31 bottom-5 md:bottom-7 rounded-xl shadow-xl">
             <Image
               src="/statue2.png"
               alt="Justice statue"
-              width={150}
-              height={200}
+              width={120}
+              height={160}
+              className="md:w-[150px] md:h-[200px]"
             />
           </div>
         </div>
