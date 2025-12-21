@@ -2,7 +2,7 @@ import Header from "../../core/component/header";
 import Header2 from "../../core/component/header2";
 import Footer from "@/core/component/footer";
 import Footer3 from "@/core/component/footer3";
-import ServicesSection from "@/core/component/practice_areas";
+import ServicesSection from "@/core/component/services_section";
 
 export default function ContactUs_Page() {
   return (

@@ -1,4 +1,3 @@
-import { desc } from "framer-motion/client";
 import Image from "next/image";
 
 const services = [
@@ -128,29 +127,34 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-16 space-y-28">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16 space-y-20 sm:space-y-28">
       {services.map((service, index) => {
         const isReverse = index % 2 !== 0;
         return (
           <div
             key={index}
-            className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-stretch"
+            className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-14 items-stretch"
           >
+
             <div className={isReverse ? "lg:order-2" : ""}>
-              <h2 className="text-5xl font-extralight font-serif text-gray-900 mb-3">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extralight font-serif text-gray-900 mb-3">
                 {service.title}
               </h2>
-              <p className="text-gray-600 max-w-lg mb-6 text-[17px]">
+
+              <p className="text-gray-600 max-w-lg mb-6 text-[15px] sm:text-[17px] leading-relaxed">
                 {service.description}
               </p>
+
               <h4 className="font-semibold text-gray-900 mb-4">
                 Services include:
               </h4>
-              <div>
+
+              <div className="space-y-2">
                 {service.points.map((point, i) => (
-                  <div key={i} className="flex items-center gap-3">
-                    <div className="w-2 h-2 my-1.5 rounded-full bg-[#a48a5f] shrink-0"></div>
-                    <div className="leading-none text-gray-800 text-[13px]">
+                  <div key={i} className="flex items-start gap-3">
+                    <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
+
+                    <div className="text-gray-800 text-[13px] sm:text-[14px] leading-relaxed">
                       {point.split("**").map((text, i) =>
                         i % 2 === 1 ? (
                           <strong key={i} className="font-semibold">
@@ -171,7 +175,7 @@ export default function ServicesSection() {
                 isReverse ? "lg:justify-start" : "lg:justify-end"
               } ${isReverse ? "lg:order-1" : ""}`}
             >
-              <div className="relative h-full rounded-2xl overflow-hidden">
+              <div className="relative w-full max-w-md lg:max-w-none h-64 sm:h-80 lg:h-full rounded-2xl overflow-hidden">
                 <Image
                   src={service.image}
                   alt={service.title}
@@ -184,6 +188,6 @@ export default function ServicesSection() {
           </div>
         );
       })}
-    </section>
+    </div>
   );
 }
