@@ -28,3 +28,7 @@ body {
   color: var(--foreground);
   font-family: "Sixtyfour", sans-serif;
 }
+
+html, body {
+  overflow-x: hidden;
+}

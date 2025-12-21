@@ -2,8 +2,7 @@ import Image from "next/image";
 
 export default function Intro() {
   return (
-    <div className="relative h-[520px] md:h-[600px] w-full overflow-hidden my-1">
-
+    <div className="relative h-[520px] md:h-[600px] w-full overflow-hidden overflow-x-hidden my-1">
       <Image
         src="/statue.png"
         alt="Library"
@@ -15,18 +14,17 @@ export default function Intro() {
       <div className="absolute inset-0 bg-[#f7f2ec]/0" />
 
       <div className="relative grid grid-cols-1 md:grid-cols-2 h-full items-center px-6 md:px-0">
-
-        <div className="hidden md:flex justify-end mr-9">
+        <div className="hidden md:flex justify-end md:mr-9 mr-0">
           <Image
             src="/profile.png"
             alt="Profile"
             width={500}
             height={500}
-            className="object-cover h-full w-full"
+            className="object-cover max-w-full h-auto"
           />
         </div>
 
-        <div className="flex flex-col justify-center md:items-start items-start md:pl-0 pl-2">
+        <div className="flex flex-col justify-center items-start pl-2 md:pl-0">
           <div className="text-black mb-2 text-[18px] md:text-[22px] pb-5 md:pb-7">
             Welcome to{" "}
             <span className="text-[#8f662d] font-bold">
@@ -53,7 +51,6 @@ export default function Intro() {
             </button>
           </div>
         </div>
-
       </div>
     </div>
   );
