@@ -13,37 +13,37 @@ export default function Home_Page() {
   return (
     <div>
       <div className="bg-[#f7f2ec]">
-        <div className="mx-40">
+        <div className="mx-4 md:mx-12 lg:mx-40">
           <Header />
         </div>
         <div className="w-full h-0.5 bg-[#8f662d] my-2.5"></div>
-        <div className="mx-40">
+        <div className="mx-4 md:mx-12 lg:mx-40">
           <Header2 />
           <Intro />
         </div>
       </div>
-      <div className="mx-40">
+      <div className="mx-4 md:mx-12 lg:mx-40">
         <Intro2 />
       </div>
       <div className="bg-[#f7f2ec]">
-        <div className="mx-40">
+        <div className="mx-4 md:mx-12 lg:mx-40">
           <GridMenu />
         </div>
       </div>
-      <div className="mx-40">
+      <div className="mx-4 md:mx-12 lg:mx-40">
           <FirmCol />
       </div>
       <FeedbackSlider />
-      <div className="mx-40">
+      <div className="mx-4 md:mx-12 lg:mx-40">
           <HomeLast />
       </div>
       <div className="bg-[#f7f2ec]">
-        <div className="mx-40">
+        <div className="mx-4 md:mx-12 lg:mx-40">
           <Footer2 />
         </div>
       </div>
       <div className="bg-black">
-        <div className="mx-40">
+        <div className="mx-4 md:mx-12 lg:mx-40">
           <Footer />
         </div>
       </div>
