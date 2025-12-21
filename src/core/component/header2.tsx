@@ -3,47 +3,80 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
 import menus from "@/core/data/menus.data.json";
 
 export default function Header2() {
   const pathname = usePathname();
+  const [open, setOpen] = useState(false);
 
   return (
-    <div>
-      <div className="grid grid-cols-2 gap-9 mt-10">
-        <div className="justify-items-start">
-          <Link href="/">
-            <Image
-              src="/logo.png"
-              alt="logo"
-              width={370}
-              height={370}
-              style={{ cursor: "pointer" }}
-            />
-          </Link>
-        </div>
-        <div className="grid grid-cols-4 gap-5 items-center justify-items-center">
+    <header className="mt-10">
+      <div className="flex items-center justify-between">
+
+        <Link href="/">
+          <Image
+            src="/logo.png"
+            alt="logo"
+            width={260}
+            height={260}
+            className="cursor-pointer"
+          />
+        </Link>
+
+        <div className="hidden lg:grid grid-cols-4 gap-5 items-center justify-items-center">
           {menus.map((item, index) => {
             const isActive = pathname === item.link;
             return (
-              <div key={index}>
-                <Link
-                  href={item.link}
-                  className={`text-sm font-semibold transition-colors
-                        ${
-                          isActive
-                            ? "text-[#a48a5f]"
-                            : "text-[#4b453d] hover:text-[#d3c6b3]"
-                        }
-                        `}
-                >
-                  {item.title}
-                </Link>
-              </div>
+              <Link
+                key={index}
+                href={item.link}
+                className={`text-sm font-semibold transition-colors
+                  ${
+                    isActive
+                      ? "text-[#a48a5f]"
+                      : "text-[#4b453d] hover:text-[#d3c6b3]"
+                  }
+                `}
+              >
+                {item.title}
+              </Link>
             );
           })}
         </div>
+
+        <button
+          onClick={() => setOpen(!open)}
+          className="lg:hidden text-[#4b453d]"
+        >
+          {open ? <X size={28} /> : <Menu size={28} />}
+        </button>
       </div>
-    </div>
+
+      {open && (
+        <div className="lg:hidden mt-6 flex flex-col gap-4 border-t pt-4">
+          {menus.map((item, index) => {
+            const isActive = pathname === item.link;
+            return (
+              <Link
+                key={index}
+                href={item.link}
+                onClick={() => setOpen(false)}
+                className={`text-sm font-semibold transition-colors
+                  ${
+                    isActive
+                      ? "text-[#a48a5f]"
+                      : "text-[#4b453d] hover:text-[#d3c6b3]"
+                  }
+                `}
+              >
+                {item.title}
+              </Link>
+            );
+          })}
+        </div>
+      )}
+    </header>
   );
 }
