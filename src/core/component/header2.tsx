@@ -19,7 +19,7 @@ export default function Header2() {
           <Image
             src="/logo.png"
             alt="logo"
-            width={260}
+            width={300}
             height={260}
             className="cursor-pointer"
           />

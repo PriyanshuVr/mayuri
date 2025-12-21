@@ -3,7 +3,7 @@ import { Phone, Mail } from "lucide-react";
 export default function Header() {
   return (
     <div>
-      <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-end pt-2 gap-2 sm:gap-0">
+      <div className="flex flex-col sm:flex-row items-center justify-start lg:justify-end pt-2 gap-2 sm:gap-0">
         
         <div className="flex items-center">
           <Phone size={23} className="text-[#a48a5f]" />
