@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function FirmCol() {
   return (
-    <div className="max-w-6xl mx-auto px-6 mt-20 md:mt-28 mb-28 md:mb-48">
+    <div className="max-w-6xl mx-auto px-6 mt-20 md:mt-28 mb-44 md:mb-48">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
         {/* Text Section */}
         <div className="space-y-6 max-w-lg">
@@ -42,7 +42,7 @@ export default function FirmCol() {
           />
 
           <div className="absolute -left-9 -bottom-35 lg:-left-30 lg:-bottom-22 rounded-xl shadow-xl">
-            <Image src="/books.png" alt="Law Books" width={220} height={260} />
+            <Image src="/books.png" alt="Law Books" width={180} height={260} />
           </div>
         </div>
       </div>
