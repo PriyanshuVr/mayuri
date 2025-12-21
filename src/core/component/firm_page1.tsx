@@ -41,7 +41,7 @@ export default function FirmPage1() {
             className="rounded-2xl object-cover"
           />
 
-          <div className="absolute -left-12 -bottom-12 sm:-left-20 sm:-bottom-20 rounded-xl shadow-xl overflow-hidden">
+          <div className="absolute sm:-left-10 sm:-bottom-20 -left-12 -bottom-12 rounded-xl shadow-xl overflow-hidden">
             <Image
               src="/writing.png"
               alt="Law Books"
