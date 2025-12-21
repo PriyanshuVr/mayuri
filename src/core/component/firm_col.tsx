@@ -2,10 +2,13 @@ import Image from "next/image";
 
 export default function FirmCol() {
   return (
-    <div className="max-w-6xl mx-auto px-6 mt-28 mb-48">
-      <div className="grid grid-cols-2 gap-20 items-center">
+    <div className="max-w-6xl mx-auto px-6 mt-20 md:mt-28 mb-28 md:mb-48 overflow-x-hidden">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
+        {/* Text Section */}
         <div className="space-y-6 max-w-lg">
-          <h2 className="text-5xl font-serif text-gray-800 mb-9">The Firm</h2>
+          <h2 className="text-4xl md:text-5xl font-serif text-gray-800 mb-6 md:mb-9">
+            The Firm
+          </h2>
 
           <p className="text-base text-gray-700 leading-relaxed">
             <span className="font-semibold text-[#8f662d]">
@@ -28,16 +31,17 @@ export default function FirmCol() {
           </button>
         </div>
 
-        <div className="relative w-fit ml-auto">
+        {/* Image Section */}
+        <div className="relative w-full md:w-fit md:ml-auto flex justify-center md:justify-end overflow-hidden">
           <Image
             src="/court.png"
             alt="Supreme Court of India"
             width={420}
             height={420}
-            className="rounded-2xl object-cover"
+            className="rounded-2xl object-cover max-w-full h-auto"
           />
 
-          <div className="absolute -left-30 -bottom-22 rounded-xl shadow-xl overflow-hidden">
+          <div className="md:block absolute -left-30 -bottom-22 rounded-xl shadow-xl">
             <Image src="/books.png" alt="Law Books" width={220} height={260} />
           </div>
         </div>
