@@ -51,18 +51,24 @@ export default function FirmPage2() {
             in providing legal counsel and representation.
           </p>
 
-          <div className="text-base text-gray-700 space-y-2">
-            <div>• LL.M in Criminal Law - Amity University, Noida</div>
-            <div>• B.A. LL.B (Hons.) - Maharishi Dayanand University, Rohtak</div>
-            <div>• UGC-NET Qualified (2023)</div>
+          <div className="flex items-start gap-3">
+            <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
+            <div className="text-base text-gray-700">LL.M in Criminal Law - Amity University, Noida</div>
           </div>
-
+          <div className="flex items-start gap-3">
+            <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
+            <div className="text-base text-gray-700">B.A. LL.B (Hons.) - Maharishi Dayanand University, Rohtak</div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
+            <div className="text-base text-gray-700">UGC-NET Qualified (2023)</div>
+          </div>
           <p className="text-xl sm:text-2xl font-bold text-gray-700">
             Publication:
           </p>
 
           <p className="text-gray-700 leading-relaxed">
-            “Sexual Harassment Against Males: An Ignored Sphere by Society” –
+            “Sexual Harassment Against Males: An Ignored Sphere by Society” -
             International Journal for Legal Research and Analysis (ISSN 2582-6433)
           </p>
 
