@@ -6,7 +6,7 @@ export default function ContactUs() {
       <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif mb-28 text-[#372d1f] text-center">
         CONTACT US
       </h1>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div>
           <p className="text-black text-[32px] font-semibold">
             Connect With Us
@@ -54,7 +54,7 @@ export default function ContactUs() {
             </div>
           </div>
         </div>
-        <div className="flex justify-end">
+        <div className="flex justify-start lg:justify-end">
           <div className="w-full max-w-md rounded-2xl bg-[#8b6a3f] p-6 shadow-lg">
             <form className="space-y-4">
               <input
@@ -93,7 +93,7 @@ export default function ContactUs() {
 
               <button
                 type="submit"
-                className="bg-white w-full rounded-lg bg-linear-to-r from-[#e3a33b] to-[#d4952f] py-3 text-lg font-semibold text-white transition hover:opacity-90 cursor-pointer"
+                className="bg-white w-full rounded-lg bg-linear-to-b from-[#dd9229] to-[#d2983c] py-3 text-lg font-semibold text-white transition hover:opacity-90 cursor-pointer"
               >
                 SUBMIT
               </button>
