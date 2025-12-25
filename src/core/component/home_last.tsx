@@ -33,7 +33,7 @@ export default function HomeLast() {
             className="rounded-2xl object-cover max-w-full h-auto"
           />
 
-          <div className="md:block absolute -right-22 -bottom-28 rounded-xl shadow-xl">
+          <div className="md:block absolute -right-9 -bottom-28 rounded-xl shadow-xl">
             <Image
               src="/handshake.png"
               alt="Law Books"
