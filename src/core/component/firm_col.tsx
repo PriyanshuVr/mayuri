@@ -4,7 +4,7 @@ export default function FirmCol() {
   return (
     <div className="max-w-6xl mx-auto px-6 mt-20 md:mt-28 mb-44 md:mb-48">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
-        {/* Text Section */}
+
         <div className="space-y-6 max-w-lg">
           <h2 className="text-4xl md:text-5xl font-serif text-gray-800 mb-6 md:mb-9">
             The Firm
@@ -31,7 +31,6 @@ export default function FirmCol() {
           </button>
         </div>
 
-        {/* Image Section */}
         <div className="relative w-full md:w-fit md:ml-auto flex justify-center md:justify-end">
           <Image
             src="/court.png"
@@ -42,7 +41,7 @@ export default function FirmCol() {
           />
 
           <div className="absolute -left-9 -bottom-35 lg:-left-30 lg:-bottom-22 rounded-xl shadow-xl">
-            <Image src="/books.png" alt="Law Books" width={180} height={260} />
+            <Image src="/books.png" alt="Law Books" width={220} height={260} />
           </div>
         </div>
       </div>

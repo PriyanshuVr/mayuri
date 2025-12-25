@@ -23,7 +23,7 @@ export default function HomeLast() {
           </button>
         </div>
 
-        <div className="relative w-full md:w-fit md:mr-auto flex justify-center md:justify-start overflow-hidden">
+        <div className="relative w-full md:w-fit md:mr-auto flex justify-center md:justify-start">
 
           <Image
             src="/group.png"
@@ -33,7 +33,7 @@ export default function HomeLast() {
             className="rounded-2xl object-cover max-w-full h-auto"
           />
 
-          <div className="hidden md:block absolute -right-22 -bottom-28 rounded-xl shadow-xl">
+          <div className="md:block absolute -right-22 -bottom-28 rounded-xl shadow-xl">
             <Image
               src="/handshake.png"
               alt="Law Books"
