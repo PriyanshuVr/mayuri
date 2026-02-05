@@ -13,7 +13,7 @@ export default function Header() {
         <div className="flex items-center">
           <Mail size={23} className="text-[#a48a5f]" />
           <p className="text-black mx-2 break-all sm:break-normal">
-            adv.mayuri97yadav@example.com
+            adv.mayuri97yadav@gmail.com
           </p>
         </div>
 
