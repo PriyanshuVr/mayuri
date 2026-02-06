@@ -25,11 +25,11 @@ export default function FirmPage2() {
         </div>
 
         <div className="space-y-6 max-w-lg">
-          <h2 className="font-serif text-gray-800 mb-6 lg:mb-9">
+          <h2 className="font-serif text-[#372d1f] mb-6 lg:mb-9">
             <span className="block text-3xl sm:text-4xl lg:text-5xl">
               Advocate Mayuri Yadav
             </span>
-            <span className="block text-xl sm:text-2xl lg:text-4xl text-gray-600">
+            <span className="block text-xl sm:text-2xl lg:text-4xl text-[#372d1f]">
               Firm Founder
             </span>
           </h2>
@@ -39,7 +39,7 @@ export default function FirmPage2() {
             in providing legal counsel and representation.
           </p>
 
-          <p className="text-2xl sm:text-3xl lg:text-4xl text-gray-700">
+          <p className="text-xl sm:text-2xl lg:text-4xl text-[#372d1f]">
             Academic Qualifications:
           </p>
 
@@ -60,7 +60,7 @@ export default function FirmPage2() {
             <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
             <div className="text-base text-gray-700">UGC-NET Qualified (2023)</div>
           </div>
-          <p className="text-xl sm:text-2xl font-bold text-gray-700">
+          <p className="text-xl sm:text-2xl font-bold text-[#372d1f]">
             Publication:
           </p>
 
@@ -69,7 +69,7 @@ export default function FirmPage2() {
             International Journal for Legal Research and Analysis (ISSN 2582-6433)
           </p>
 
-          <p className="text-xl sm:text-2xl font-bold text-gray-700">
+          <p className="text-xl sm:text-2xl font-bold text-[#372d1f]">
             Dissertation:
           </p>
 
@@ -78,7 +78,7 @@ export default function FirmPage2() {
             India with reference to IT Act, 2000”
           </p>
 
-          <p className="text-xl sm:text-2xl font-bold text-gray-700">
+          <p className="text-xl sm:text-2xl font-bold text-[#372d1f]">
             Professional Strengths:
           </p>
 

@@ -25,7 +25,7 @@ export default function Header2() {
           />
         </Link>
 
-        <div className="hidden lg:grid grid-cols-4 gap-5 items-center justify-items-center">
+        <div className="hidden lg:flex items-center gap-10 tracking-wide">
           {menus.map((item, index) => {
             const isActive = pathname === item.link;
             return (

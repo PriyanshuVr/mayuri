@@ -3,15 +3,15 @@ import Link from "next/link";
 
 const menu = [
   {
-    title: "Civil Law",
+    title: "CIVIL LAW",
     image: "/GridMenu/Layer1.jpg",
   },
   {
-    title: "Criminal Law",
+    title: "CRIMINAL LAW",
     image: "/GridMenu/Layer2.jpg",
   },
   {
-    title: "Matrimonial & Family Law",
+    title: "MATRIMONIAL & FAMILY LAW",
     image: "/GridMenu/Layer3.jpg",
   },
   {
@@ -39,7 +39,7 @@ const menu = [
 export default function GridMenu() {
   return (
     <div className="bg-[#f7f2ec] py-12">
-      <h2 className="text-left text-4xl font-serif mb-13 text-[#3a2f23]">
+      <h2 className="text-left text-[74px] font-serif mb-13 text-[#3a2f23]">
         Legal Practice Areas
       </h2>
       <div className="flex flex-wrap justify-center gap-10">
@@ -55,7 +55,7 @@ export default function GridMenu() {
             </div>
             <h3 className="my-2 text-[#372d1f] font-semibold">{item.title}</h3>
             <Link href="/PracticeAreas">
-              <p className="text-[#8f6f2d] font-semibold">Learn more →</p>
+              <p className="text-[#8f6f2d] font-semibold">LEARN MORE →</p>
             </Link>
           </div>
         ))}

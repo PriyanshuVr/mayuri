@@ -40,7 +40,7 @@ const testimonials = Array(5).fill(baseTestimonials).flat();
 export default function FeedbackSlider() {
   return (
     <section className="bg-[#f7f2ec] py-24">
-      <h2 className="text-center text-4xl font-serif mb-16 text-[#3a2f23]">
+      <h2 className="text-center text-[74px] font-serif mb-16 text-[#3a2f23]">
         What Our Clients Say
       </h2>
 
@@ -70,7 +70,6 @@ export default function FeedbackSlider() {
                   ${isActive ? "opacity-100 scale-100" : "opacity-50 scale-95"}
                 `}
               >
-                {/* stars */}
                 <div className="flex justify-left mb-4">
                   {[...Array(5)].map((_, i) => (
                     <Star

@@ -13,7 +13,7 @@ export default function Footer() {
           height={65}
           className="mr-5"
         />
-        <div className="text-[22px]">Contact Info</div>
+        <div className="text-[29px]">Contact Info</div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-0 md:ml-16">
@@ -21,19 +21,19 @@ export default function Footer() {
         <div className="space-y-4">
           <div className="flex items-start">
             <Phone size={22} className="text-[#a48a5f] mr-4 mt-1" />
-            <p>+91 8750130940</p>
+            <p className="text-[20px]">+91 8750130940</p>
           </div>
 
           <div className="flex items-start">
             <Mail size={22} className="text-[#a48a5f] mr-4 mt-1" />
-            <p>adv.mayuri97yadav@gmail.com</p>
+            <p className="text-[20px]">adv.mayuri97yadav@gmail.com</p>
           </div>
 
           <div className="flex items-start">
             <Clock4 size={22} className="text-[#a48a5f] mr-4 mt-1" />
             <div>
-              <p>Monday - Saturday | 10:00 AM - 7:00 PM</p>
-              <p className="text-[11px]">
+              <p className="text-[20px]">Monday - Saturday | 10:00 AM - 7:00 PM</p>
+              <p className="text-[18px]">
                 ( Call for prior booking of appointment for consultation )
               </p>
             </div>
@@ -45,8 +45,8 @@ export default function Footer() {
             <MapPin size={22} className="text-[#a48a5f] mr-4 mt-1" />
             <div>
               <p className="text-[18px] font-semibold">Office Address:</p>
-              <p>Chamber No. A-10, A.N Monga Block, Western Wing,</p>
-              <p>Tis Hazari Courts, Delhi - 110054</p>
+              <p className="text-[20px]">Chamber No. A-10, A.N Monga Block, Western Wing,</p>
+              <p className="text-[20px]">Tis Hazari Courts, Delhi - 110054</p>
             </div>
           </div>
 
@@ -56,7 +56,7 @@ export default function Footer() {
               <p className="text-[18px] font-semibold">
                 Residential-cum-Office:
               </p>
-              <p className="text-[15px]">
+              <p className="text-[20px]">
                 RZ-378, Street No. 6, East Sagarpur, New Delhi - 110046
               </p>
             </div>

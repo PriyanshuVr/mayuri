@@ -7,7 +7,7 @@ export default function Header() {
         
         <div className="flex items-center">
           <Phone size={23} className="text-[#a48a5f]" />
-          <p className="text-black mx-2">+91 8750130940</p>
+          <p className="text-black mx-5">+91 8750130940</p>
         </div>
 
         <div className="flex items-center">

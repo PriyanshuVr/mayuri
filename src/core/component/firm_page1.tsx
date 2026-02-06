@@ -6,7 +6,7 @@ export default function FirmPage1() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-20 items-center">
         
         <div className="space-y-6 max-w-lg">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-gray-800 mb-6 lg:mb-9">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-[#372d1f] mb-6 lg:mb-9">
             Client-Focused Legal Advocacy
           </h2>
 

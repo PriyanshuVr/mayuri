@@ -137,7 +137,7 @@ export default function ServicesSection() {
           >
 
             <div className={isReverse ? "lg:order-2" : ""}>
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extralight font-serif text-gray-900 mb-3">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extralight font-serif text-[#372d1f] mb-3">
                 {service.title}
               </h2>
 
