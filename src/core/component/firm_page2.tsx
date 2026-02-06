@@ -5,7 +5,6 @@ export default function FirmPage2() {
     <div className="max-w-6xl mx-auto px-4 sm:px-6 my-20 sm:my-28">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-20 items-center">
 
-        {/* IMAGE */}
         <div className="relative w-fit mx-auto lg:mr-auto">
           <Image
             src="/profile2.png"
@@ -15,7 +14,6 @@ export default function FirmPage2() {
             className="rounded-2xl object-cover"
           />
 
-          {/* Floating image */}
           <div className="absolute -right-6 -bottom-10 sm:-right-10 sm:-bottom-15 rounded-xl shadow-xl overflow-hidden">
             <Image
               src="/constitution.png"
@@ -26,7 +24,6 @@ export default function FirmPage2() {
           </div>
         </div>
 
-        {/* TEXT */}
         <div className="space-y-6 max-w-lg">
           <h2 className="font-serif text-gray-800 mb-6 lg:mb-9">
             <span className="block text-3xl sm:text-4xl lg:text-5xl">

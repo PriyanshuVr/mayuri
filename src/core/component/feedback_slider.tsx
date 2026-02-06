@@ -10,12 +10,28 @@ const baseTestimonials = [
     author: "Client, Delhi (Matrimonial Case)",
   },
   {
-    text: "Advocate Mayuri Yadav handled my matrimonial dispute with complete professionalism and compassion. She explained every step clearly and ensured my concerns were addressed patiently. Her strategic approach helped me achieve a favorable outcome.",
-    author: "Client, Delhi (Matrimonial Case)",
+    text: "I approached her for a property partition suit. She not only drafted all documents promptly but also handled court procedures efficiently. Her attention to detail and legal understanding are commendable.",
+    author: "Client, Gurugram (Civil Matter)",
   },
   {
-    text: "Advocate Mayuri Yadav handled my matrimonial dispute with complete professionalism and compassion. She explained every step clearly and ensured my concerns were addressed patiently. Her strategic approach helped me achieve a favorable outcome.",
-    author: "Client, Delhi (Matrimonial Case)",
+    text: "In my cheque bounce case, her arguments were precise and persuasive. She made sure I understood the entire process and kept me updated at every hearing. I was extremely satisfied with the result.",
+    author: "Client, Delhi (Cheque Bounce Case)",
+  },
+  {
+    text: "Adv. Mayuri made the entire mutual divorce process smooth and dignified. Her guidance on child custody and alimony issues was clear and practical. She truly cares for her clients beyond just paperwork.",
+    author: "Client, Noida (Family Law)",
+  },
+  {
+    text: "Her presentation before the court was confident, organized, and convincing. The way she articulated facts and law showed her strong command over legal principles.",
+    author: "Client, Delhi (Civil Litigation)",
+  },
+  {
+    text: "She explains laws in simple terms and always maintains transparency regarding fees and procedure. A rare combination of professionalism and genuine care for clients.",
+    author: "Client,  (Matrimonial & Domestic Violence Case)",
+  },
+  {
+    text: "Instead of prolonging litigation, she negotiated a fair settlement for both sides and helped close the matter efficiently. Her mediation skills saved me a lot of time and stress.",
+    author: "Client, Karol Bagh (Negotiable Instruments Act Case)",
   },
 ];
 

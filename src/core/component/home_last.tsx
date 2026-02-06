@@ -10,15 +10,28 @@ export default function HomeLast() {
             Why Clients Choose Us
           </h2>
 
-          <div className="text-base text-gray-700 space-y-2">
-            <div>• Personalized attention to every case</div>
-            <div>• Honest and practical legal advice</div>
-            <div>• Regular updates and clear communication</div>
-            <div>• Ethical and professional representation</div>
-            <div>• Strong drafting and courtroom advocacy</div>
+          <div className="flex items-start gap-3 mb-3">
+            <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
+            <div className="text-base text-gray-700">Personalized attention to every case</div>
+          </div>
+          <div className="flex items-start gap-3 mb-3">
+            <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
+            <div className="text-base text-gray-700">Honest and practical legal advice</div>
+          </div>
+          <div className="flex items-start gap-3 mb-3">
+            <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
+            <div className="text-base text-gray-700">Regular updates and clear communication</div>
+          </div>
+          <div className="flex items-start gap-3 mb-3">
+            <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
+            <div className="text-base text-gray-700">Ethical and professional representation</div>
+          </div>
+          <div className="flex items-start gap-3 mb-3">
+            <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
+            <div className="text-base text-gray-700">Strong drafting and courtroom advocacy</div>
           </div>
 
-          <button className="rounded-sm bg-linear-to-b from-[#7e6643] to-[#ab9165] px-6 py-3 text-[15px] text-white font-semibold cursor-pointer">
+          <button className="rounded-sm bg-linear-to-b from-[#7e6643] to-[#ab9165] px-6 py-3 text-[15px] text-white font-semibold cursor-pointer mt-5">
             Explore Our Services →
           </button>
         </div>

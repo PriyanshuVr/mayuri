@@ -4,7 +4,6 @@ export default function FirmCol() {
   return (
     <div className="max-w-6xl mx-auto px-6 mt-20 md:mt-28 mb-44 md:mb-48">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
-
         <div className="space-y-6 max-w-lg">
           <h2 className="text-4xl md:text-5xl font-serif text-gray-800 mb-6 md:mb-9">
             The Firm
@@ -19,14 +18,24 @@ export default function FirmCol() {
             legal solutions that are practical, timely, and effective.
           </p>
 
-          <div className="text-base text-gray-700 space-y-2">
-            <div>• Clear client communication</div>
-            <div>• Thorough legal research</div>
-            <div>• Ethical representation</div>
-            <div>• Personalized strategies for every case</div>
+          <div className="flex items-start gap-3 mb-3">
+            <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
+            <div className="text-base text-gray-700">Clear client communication</div>
+          </div>
+          <div className="flex items-start gap-3 mb-3">
+            <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
+            <div className="text-base text-gray-700">Thorough legal research</div>
+          </div>
+          <div className="flex items-start gap-3 mb-3">
+            <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
+            <div className="text-base text-gray-700">Ethical representation</div>
+          </div>
+          <div className="flex items-start gap-3 mb-3">
+            <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
+            <div className="text-base text-gray-700">Personalized strategies for every case</div>
           </div>
 
-          <button className="rounded-sm bg-linear-to-b from-[#7e6643] to-[#ab9165] px-6 py-3 text-[15px] text-white font-semibold cursor-pointer">
+          <button className="rounded-sm bg-linear-to-b from-[#7e6643] to-[#ab9165] px-6 py-3 text-[15px] text-white font-semibold cursor-pointer mt-5">
             Explore Our Services →
           </button>
         </div>
