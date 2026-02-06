@@ -41,7 +41,7 @@ export default function ContactUs() {
 
   return (
     <div className="py-12">
-      <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif mb-28 text-[#372d1f] text-center">
+      <h1 className="text-4xl md:text-5xl lg:text-[64px] font-serif mb-28 text-[#372d1f] text-center">
         CONTACT US
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
