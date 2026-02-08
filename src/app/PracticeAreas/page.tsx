@@ -3,6 +3,17 @@ import Header2 from "../../core/component/header2";
 import Footer from "@/core/component/footer";
 import Footer3 from "@/core/component/footer3";
 import ServicesSection from "@/core/component/services_section";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Practice Areas",
+  description:
+    "Explore the diverse areas of practice at Mayuri Yadav & Associates  experienced lawyers in Civil, Criminal, Family, Property, Corporate, Consumer, and Labour Law matters.",
+  keywords: [
+    "Legal Practice Areas",
+    "Civil, Criminal, Matrimonial, Property & Corporate Law Experts in Delhi NCR",
+  ],
+};
 
 export default function ContactUs_Page() {
   return (

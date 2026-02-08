@@ -8,6 +8,17 @@ import Intro from "@/core/component/intro";
 import Intro2 from "@/core/component/intro2";
 import FirmCol from "@/core/component/firm_col";
 import HomeLast from "@/core/component/home_last";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "CLIENT TESTIMONIALS",
+  description:
+    "Read what clients say about Advocate Mayuri Yadav & Associates - trusted for clear guidance, professionalism, and strong legal representation in Delhi NCR.",
+  keywords: [
+    "Client Reviews",
+    "Advocate Mayuri Yadav & Associates – Trusted Legal Services in Delhi NCR",
+  ],
+};
 
 export default function Home_Page() {
   return (
