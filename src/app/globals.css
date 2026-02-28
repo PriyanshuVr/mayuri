@@ -4,6 +4,25 @@
 @import "swiper/css/navigation";
 @import "swiper/css/pagination";
 
+@font-face {
+  font-family: "Font Awesome 7 Free";
+  font-display: block;
+  src: url("/fonts/fontawesome/fa-regular-400.woff2") format("woff2");
+}
+
+[class^='icon-'],
+[class*=' icon-']  {
+  display: inline-block;
+  font-family: 'Font Awesome 7 Free' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-phone:before{
+  content: "\f094";
+}
+
 :root {
   --background: #ffffff;
   --foreground: #ffffff;

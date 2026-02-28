@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import menus from "@/core/data/menus.data.json";
+import { lora , jost } from "@/lib/fonts";
 
 export default function Header2() {
   const pathname = usePathname();
@@ -32,11 +33,11 @@ export default function Header2() {
               <Link
                 key={index}
                 href={item.link}
-                className={`text-sm font-semibold transition-colors
+                className={`${jost.className} text-sm font-semibold transition-colors
                   ${
                     isActive
                       ? "text-[#a48a5f]"
-                      : "text-[#4b453d] hover:text-[#d3c6b3]"
+                      : "text-[#4b453d] hover:text-[#d3c6b3] hover:font-extrabold"
                   }
                 `}
               >
@@ -63,11 +64,11 @@ export default function Header2() {
                 key={index}
                 href={item.link}
                 onClick={() => setOpen(false)}
-                className={`text-sm font-semibold transition-colors
+                className={`${jost.className} text-sm font-semibold transition-colors
                   ${
                     isActive
                       ? "text-[#a48a5f]"
-                      : "text-[#4b453d] hover:text-[#d3c6b3]"
+                      : "text-[#4b453d] hover:text-[#d3c6b3] hover:font-extrabold"
                   }
                 `}
               >

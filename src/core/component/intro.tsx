@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { lora , jost } from "@/lib/fonts";
 
 export default function Intro() {
   return (
@@ -26,20 +27,20 @@ export default function Intro() {
         </div>
 
         <div className="flex flex-col justify-center items-start pl-2 md:pl-0">
-          <div className="text-black mb-2 text-[18px] md:text-[22px] pb-5 md:pb-7">
+          <div className={`${jost.className} text-black mb-2 text-[18px] md:text-[22px] pb-5 md:pb-7`}>
             Welcome to{" "}
-            <span className="text-[#8f662d] font-bold">
+            <span className={`${jost.className} text-[#8f662d] font-bold`}>
               Mayuri Yadav & Associates
             </span>
           </div>
 
-          <div className="text-[#372d1f] text-[22px] md:text-[30px] font-semibold">
+          <div className={`${lora.className} text-[#372d1f] text-[22px] md:text-[30px] font-semibold`}>
             Trusted Legal Representation.
           </div>
-          <div className="text-[#372d1f] text-[22px] md:text-[30px] font-semibold">
+          <div className={`${lora.className} text-[#372d1f] text-[22px] md:text-[30px] font-semibold`}>
             Practical Solutions.
           </div>
-          <div className="text-[#372d1f] text-[22px] md:text-[30px] font-semibold">
+          <div className={`${lora.className} text-[#372d1f] text-[22px] md:text-[30px] font-semibold`}>
             Client-Centered Approach.
           </div>
 
@@ -47,7 +48,7 @@ export default function Intro() {
             <Link href="/PracticeAreas">
               <button
               type="submit"
-              className="rounded-lg bg-linear-to-b from-[#7e6643] to-[#ab9165] px-6 py-3 text-[14px] md:text-[15px] text-white font-semibold cursor-pointer"
+              className={`rounded-lg bg-linear-to-b from-[#7e6643] to-[#ab9165] px-6 py-3 text-[14px] md:text-[15px] text-white ${jost.className} font-semibold cursor-pointer`}
             >
               EXPLORE OUR SERVICES →
             </button>

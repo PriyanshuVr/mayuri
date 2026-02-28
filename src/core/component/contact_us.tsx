@@ -1,8 +1,13 @@
 "use client";
 
-import { Phone, Mail, Clock4, MapPin, House } from "lucide-react";
+import PhoneIcon from "@/core/component/icons/icon_phone.svg";
+import MailIcon from "@/core/component/icons/icon_email.svg";
+import ClockIcon from "@/core/component/icons/icon_clock.svg";
+import LocationIcon from "@/core/component/icons/icons_location.svg";
+import HouseIcon from "@/core/component/icons/icons_address.svg";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
+import { lora , jost } from "@/lib/fonts";
 
 export default function ContactUs() {
 
@@ -41,59 +46,59 @@ export default function ContactUs() {
 
   return (
     <div className="py-12">
-      <h1 className="text-4xl md:text-5xl lg:text-[64px] font-serif mb-28 text-[#372d1f] text-center">
+      <h1 className={`text-4xl md:text-5xl lg:text-[64px] font-serif mb-28 text-[#372d1f] text-center`}>
         CONTACT US
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div>
-          <p className="text-black text-[32px] font-semibold">
+          <p className={`text-black text-[32px] ${lora.className} font-medium`}>
             Connect With Us
           </p>
           <div className="flex my-4">
-            <Phone size={23} className="text-[#a48a5f] mr-4 my-1" />
-            <p className="text-black">+91 8750130940</p>
+            <PhoneIcon className="w-6 h-6 text-[#a48a5f]" />
+            <p className={`text-black ${jost.className}`}>+91 8750130940</p>
           </div>
           <div className="flex my-4">
-            <Mail size={23} className="text-[#a48a5f] mr-4 my-1" />
-            <p className="text-black">adv.mayuri97yadav@gmail.com</p>
+            <MailIcon className="w-6 h-6 text-[#a48a5f]" />
+            <p className={`text-black ${jost.className}`}>adv.mayuri97yadav@gmail.com</p>
           </div>
           <div className="flex my-4">
-            <Clock4 size={23} className="text-[#a48a5f] mr-4 my-1" />
+            <ClockIcon className="w-6 h-6 text-[#a48a5f]" />
             <div className="flex flex-col">
-              <p className="text-black">
+              <p className={`text-black ${jost.className}`}>
                 Monday - Saturday | 10:00 AM - 7:00 PM
               </p>
-              <p className="text-[11px] block text-black">
+              <p className={`text-[11px] block text-black ${jost.className}`}>
                 ( Call for prior booking of appointment for consultation )
               </p>
             </div>
           </div>
           <div className="flex my-4">
-            <MapPin size={23} className="text-[#a48a5f] mr-4 my-1" />
+            <LocationIcon className="w-6 h-6 text-[#a48a5f]" />
             <div className="flex flex-col">
-              <p className="text-[18px] font-semibold text-black">
+              <p className={`text-[18px] ${lora.className} font-semibold text-black`}>
                 Office Address:
               </p>
-              <p className="text-black">
+              <p className={`text-black ${jost.className}`}>
                 Chamber No. A-10, A.N Monga Block, Western Wing,
               </p>
-              <p className="text-black">Tis Hazari Courts,Delhi - 110054</p>
+              <p className={`text-black ${jost.className}`}>Tis Hazari Courts,Delhi - 110054</p>
             </div>
           </div>
           <div className="flex my-4">
-            <House size={23} className="text-[#a48a5f] mr-4 my-1" />
+            <HouseIcon className="w-6 h-6 text-[#a48a5f]" />
             <div className="flex flex-col">
-              <p className="text-[18px] font-semibold text-black">
+              <p className={`text-[18px] ${lora.className} font-semibold text-black`}>
                 Residential-cum-Office:
               </p>
-              <p className="text-[15px] text-black">
+              <p className={`text-[15px] text-black ${jost.className}`}>
                 RZ-378, Street No. 6, East Sagarpur, New Delhi - 110046
               </p>
             </div>
           </div>
         </div>
         <div className="flex justify-start lg:justify-end">
-          <div className="w-full max-w-md rounded-2xl bg-[#8b6a3f] p-6 shadow-lg">
+          <div className={`w-full max-w-md rounded-2xl bg-[#8b6a3f] p-6 shadow-lg ${jost.className}`}>
             <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
 
               <input

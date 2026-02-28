@@ -1,4 +1,8 @@
-import { Phone, Mail, Clock4, MapPin, House } from "lucide-react";
+import PhoneIcon from "@/core/component/icons/icon_phone.svg";
+import MailIcon from "@/core/component/icons/icon_email.svg";
+import ClockIcon from "@/core/component/icons/icon_clock.svg";
+import LocationIcon from "@/core/component/icons/icons_location.svg";
+import HouseIcon from "@/core/component/icons/icons_address.svg";
 import Image from "next/image";
 
 export default function Footer() {
@@ -20,17 +24,17 @@ export default function Footer() {
 
         <div className="space-y-4">
           <div className="flex items-start">
-            <Phone size={22} className="text-[#a48a5f] mr-4 mt-1" />
+            <PhoneIcon className="w-6 h-6 text-[#a48a5f]" />
             <p className="text-[20px]">+91 8750130940</p>
           </div>
 
           <div className="flex items-start">
-            <Mail size={22} className="text-[#a48a5f] mr-4 mt-1" />
+            <MailIcon className="w-6 h-6 text-[#a48a5f]" />
             <p className="text-[20px]">adv.mayuri97yadav@gmail.com</p>
           </div>
 
           <div className="flex items-start">
-            <Clock4 size={22} className="text-[#a48a5f] mr-4 mt-1" />
+            <ClockIcon className="w-6 h-6 text-[#a48a5f]" />
             <div>
               <p className="text-[20px]">Monday - Saturday | 10:00 AM - 7:00 PM</p>
               <p className="text-[18px]">
@@ -42,7 +46,7 @@ export default function Footer() {
 
         <div className="space-y-6">
           <div className="flex items-start">
-            <MapPin size={22} className="text-[#a48a5f] mr-4 mt-1" />
+            <LocationIcon className="w-6 h-6 text-[#a48a5f]" />
             <div>
               <p className="text-[18px] font-semibold">Office Address:</p>
               <p className="text-[20px]">Chamber No. A-10, A.N Monga Block, Western Wing,</p>
@@ -51,7 +55,7 @@ export default function Footer() {
           </div>
 
           <div className="flex items-start">
-            <House size={22} className="text-[#a48a5f] mr-4 mt-1" />
+            <HouseIcon className="w-6 h-6 text-[#a48a5f]" />
             <div>
               <p className="text-[18px] font-semibold">
                 Residential-cum-Office:

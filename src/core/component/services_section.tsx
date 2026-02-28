@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { lora , jost } from "@/lib/fonts";
 
 const services = [
   {
@@ -141,11 +142,11 @@ export default function ServicesSection() {
                 {service.title}
               </h2>
 
-              <p className="text-gray-600 max-w-lg mb-6 text-[15px] sm:text-[17px] leading-relaxed">
+              <p className={`${jost.className} text-gray-600 max-w-lg mb-6 text-[15px] sm:text-[17px] leading-relaxed`}>
                 {service.description}
               </p>
 
-              <h4 className="font-semibold text-gray-900 mb-4">
+              <h4 className={`${jost.className} font-semibold text-gray-900 mb-4`}>
                 Services include:
               </h4>
 
@@ -154,7 +155,7 @@ export default function ServicesSection() {
                   <div key={i} className="flex items-start gap-3">
                     <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
 
-                    <div className="text-gray-800 text-[13px] sm:text-[14px] leading-relaxed">
+                    <div className={`${jost.className} text-gray-800 text-[13px] sm:text-[14px] leading-relaxed`}>
                       {point.split("**").map((text, i) =>
                         i % 2 === 1 ? (
                           <strong key={i} className="font-semibold">

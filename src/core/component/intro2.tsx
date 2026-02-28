@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { lora , jost } from "@/lib/fonts";
 
 export default function Intro2() {
   return (
@@ -6,8 +7,8 @@ export default function Intro2() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
 
         <div className="space-y-6 max-w-lg">
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-            <span className="text-[#8f662d] font-semibold">
+          <p className={`${jost.className} text-sm md:text-base text-gray-700 leading-relaxed`}>
+            <span className={`${jost.className} text-[#8f662d] font-bold`}>
               Mayuri Yadav & Associates
             </span>
             , a Delhi/NCR-based law firm dedicated to delivering practical,
@@ -17,7 +18,7 @@ export default function Intro2() {
             rights and secure the best possible outcomes.
           </p>
 
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+          <p className={`${jost.className} text-sm md:text-base text-gray-700 leading-relaxed`}>
             With expertise spanning Civil, Criminal, Matrimonial, Property, and
             Cheque Bounce matters, we provide comprehensive representation before
             District Courts, Tribunals, High Courts, and the Supreme Court of India.

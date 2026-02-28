@@ -1,4 +1,5 @@
-import { Phone, Mail } from "lucide-react";
+import PhoneIcon from "@/core/component/icons/icon_phone.svg";
+import MailIcon from "@/core/component/icons/icon_email.svg";
 
 export default function Footer2() {
   return (
@@ -22,12 +23,12 @@ export default function Footer2() {
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-6">
           <button className="flex items-center gap-3 border-3 border-[#a48a5f] text-[#a48a5f] px-5 py-3 rounded-sm w-fit md:w-auto">
-            <Phone size={25} className="text-[#a48a5f]" />
+            <PhoneIcon className="w-6 h-6 text-[#a48a5f]" />
             <p className="text-black text-[29px]">+91 8750130940</p>
           </button>
 
           <button className="flex items-center gap-3 border-3 border-[#a48a5f] text-[#a48a5f] px-5 py-3 rounded-sm w-fit md:w-auto">
-            <Mail size={25} className="text-[#a48a5f]" />
+            <MailIcon className="w-6 h-6 text-[#a48a5f]" />
             <p className="text-black text-[29px] break-all md:break-normal">
               adv.mayuri97yadav@gmail.com
             </p>
