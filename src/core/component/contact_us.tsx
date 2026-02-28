@@ -50,15 +50,27 @@ export default function ContactUs() {
             Connect With Us
           </p>
           <div className="flex my-4">
-            <Phone size={23} className="text-[#a48a5f] mr-4 my-1" />
+            <img
+              src="/icons/icon_phone.svg"
+              alt="Phone"
+              className="w-5 h-5 mx-2"
+            />
             <p className="text-black">+91 8750130940</p>
           </div>
           <div className="flex my-4">
-            <Mail size={23} className="text-[#a48a5f] mr-4 my-1" />
+            <img
+              src="/icons/icon_email.svg"
+              alt="Phone"
+              className="w-5 h-5 mx-2"
+            />
             <p className="text-black">adv.mayuri97yadav@gmail.com</p>
           </div>
           <div className="flex my-4">
-            <Clock4 size={23} className="text-[#a48a5f] mr-4 my-1" />
+            <img
+              src="/icons/icon_clock.svg"
+              alt="Phone"
+              className="w-5 h-5 mx-2"
+            />
             <div className="flex flex-col">
               <p className="text-black">
                 Monday - Saturday | 10:00 AM - 7:00 PM
@@ -69,7 +81,11 @@ export default function ContactUs() {
             </div>
           </div>
           <div className="flex my-4">
-            <MapPin size={23} className="text-[#a48a5f] mr-4 my-1" />
+            <img
+              src="/icons/icons_location.svg"
+              alt="Phone"
+              className="w-5 h-5 mx-2"
+            />
             <div className="flex flex-col">
               <p className="text-[18px] font-semibold text-black">
                 Office Address:
@@ -81,7 +97,11 @@ export default function ContactUs() {
             </div>
           </div>
           <div className="flex my-4">
-            <House size={23} className="text-[#a48a5f] mr-4 my-1" />
+            <img
+              src="/icons/icons_address.svg"
+              alt="Phone"
+              className="w-5 h-5 mx-2"
+            />
             <div className="flex flex-col">
               <p className="text-[18px] font-semibold text-black">
                 Residential-cum-Office:
