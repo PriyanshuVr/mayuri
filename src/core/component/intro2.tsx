@@ -7,7 +7,7 @@ export default function Intro2() {
 
         <div className="space-y-6 max-w-lg">
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-            <span className="text-[#8f662d] font-semibold">
+            <span className="text-[#8f662d] font-bold">
               Mayuri Yadav & Associates
             </span>
             , a Delhi/NCR-based law firm dedicated to delivering practical,

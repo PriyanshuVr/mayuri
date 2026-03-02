@@ -32,7 +32,7 @@ export default function Header2() {
               <Link
                 key={index}
                 href={item.link}
-                className={`text-sm font-semibold transition-colors
+                className={`font-jost text-sm font-semibold transition-colors
                   ${
                     isActive
                       ? "text-[#a48a5f]"
@@ -48,7 +48,7 @@ export default function Header2() {
 
         <button
           onClick={() => setOpen(!open)}
-          className="lg:hidden text-[#4b453d]"
+          className="lg:hidden text-[#4b453d] font-jost font-extrabold"
         >
           {open ? <X size={28} /> : <Menu size={28} />}
         </button>

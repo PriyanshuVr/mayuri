@@ -53,9 +53,9 @@ export default function GridMenu() {
                 className="object-cover rounded-xl"
               />
             </div>
-            <h3 className="my-2 text-[#372d1f] font-semibold">{item.title}</h3>
+            <h3 className="font-lora my-2 text-[#372d1f] font-semibold">{item.title}</h3>
             <Link href="/PracticeAreas">
-              <p className="text-[#8f6f2d] font-semibold">LEARN MORE →</p>
+              <p className="font-jost text-[#8f6f2d] font-medium">LEARN MORE →</p>
             </Link>
           </div>
         ))}

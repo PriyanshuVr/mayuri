@@ -39,7 +39,7 @@ export default function FirmCol() {
           <Link href="/PracticeAreas">
               <button
               type="submit"
-              className="rounded-lg bg-linear-to-b from-[#7e6643] to-[#ab9165] px-6 py-3 text-[14px] md:text-[15px] text-white font-semibold cursor-pointer"
+              className="font-jost rounded-lg bg-linear-to-b from-[#7e6643] to-[#ab9165] px-6 py-3 text-[14px] md:text-[15px] text-white font-semibold cursor-pointer"
             >
               EXPLORE OUR SERVICES →
             </button>

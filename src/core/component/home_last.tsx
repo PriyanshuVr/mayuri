@@ -7,7 +7,7 @@ export default function HomeLast() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
 
         <div className="space-y-6 max-w-lg">
-          <h2 className="text-5xl font-serif text-[#372d1f] mb-9">
+          <h2 className="text-5xl font-lora text-[#372d1f] mb-9">
             Why Clients Choose Us
           </h2>
 
@@ -35,7 +35,7 @@ export default function HomeLast() {
           <Link href="/PracticeAreas">
               <button
               type="submit"
-              className="rounded-lg bg-linear-to-b from-[#7e6643] to-[#ab9165] px-6 py-3 text-[14px] md:text-[15px] text-white font-semibold cursor-pointer"
+              className="rounded-lg bg-linear-to-b from-[#7e6643] to-[#ab9165] px-6 py-3 text-[14px] md:text-[15px] text-white font-jost font-semibold cursor-pointer"
             >
               EXPLORE OUR SERVICES →
             </button>

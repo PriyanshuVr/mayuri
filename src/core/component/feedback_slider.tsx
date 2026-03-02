@@ -39,8 +39,8 @@ const testimonials = Array(5).fill(baseTestimonials).flat();
 
 export default function FeedbackSlider() {
   return (
-    <section className="bg-[#f7f2ec] py-24">
-      <h2 className="text-center text-[74px] font-serif mb-16 text-[#3a2f23]">
+    <section className="bg-[#f7f2ec] py-20">
+      <h2 className="text-center text-[74px] mb-16 text-[#3a2f23]">
         What Our Clients Say
       </h2>
 
@@ -60,7 +60,7 @@ export default function FeedbackSlider() {
           768: { slidesPerView: 1.8 },
           1024: { slidesPerView: 2.4 },
         }}
-        className="max-w-6xl mx-auto"
+        className="max-w-9xl mx-auto"
       >
         {testimonials.map((item, index) => (
           <SwiperSlide key={index}>
@@ -80,11 +80,11 @@ export default function FeedbackSlider() {
                   ))}
                 </div>
 
-                <p className="text-[#3a2f23] leading-relaxed text-justify mb-4">
+                <p className="font-jost text-[31px] text-[#3a2f23] leading-relaxed text-left mb-4">
                   {item.text}
                 </p>
 
-                <p className="font-semibold text-[#3a2f23]">— {item.author}</p>
+                <p className="font-lora font-bold text-[#3a2f23] text-[30px] text-left">— {item.author}</p>
               </div>
             )}
           </SwiperSlide>

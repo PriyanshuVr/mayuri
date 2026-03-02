@@ -13,10 +13,10 @@ export default function Footer() {
           height={65}
           className="mr-5"
         />
-        <div className="text-[29px]">Contact Info</div>
+        <div className="font-lora font-semibold text-[29px]">Contact Info</div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-0 md:ml-16">
+      <div className="font-jost grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-0 md:ml-16">
 
         <div className="space-y-4">
           <div className="flex items-start">
@@ -60,7 +60,7 @@ export default function Footer() {
             className="w-5 h-5 mx-2"
           />
             <div>
-              <p className="text-[18px] font-semibold">Office Address:</p>
+              <p className="text-[21px] font-semibold">Office Address:</p>
               <p className="text-[20px]">Chamber No. A-10, A.N Monga Block, Western Wing,</p>
               <p className="text-[20px]">Tis Hazari Courts, Delhi - 110054</p>
             </div>
@@ -73,7 +73,7 @@ export default function Footer() {
             className="w-5 h-5 mx-2"
           />
             <div>
-              <p className="text-[18px] font-semibold">
+              <p className="text-[21px] font-semibold">
                 Residential-cum-Office:
               </p>
               <p className="text-[20px]">
