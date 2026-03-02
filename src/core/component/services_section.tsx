@@ -137,15 +137,15 @@ export default function ServicesSection() {
           >
 
             <div className={isReverse ? "lg:order-2" : ""}>
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extralight font-serif text-[#372d1f] mb-3">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-jost text-[#372d1f] mb-3">
                 {service.title}
               </h2>
 
-              <p className="text-gray-600 max-w-lg mb-6 text-[15px] sm:text-[17px] leading-relaxed">
+              <p className="text-gray-600 max-w-lg mb-6 text-[15px] sm:text-[17px] leading-relaxed font-jost">
                 {service.description}
               </p>
 
-              <h4 className="font-semibold text-gray-900 mb-4">
+              <h4 className="font-jost text-gray-900 mb-4">
                 Services include:
               </h4>
 
@@ -157,7 +157,7 @@ export default function ServicesSection() {
                     <div className="text-gray-800 text-[13px] sm:text-[14px] leading-relaxed">
                       {point.split("**").map((text, i) =>
                         i % 2 === 1 ? (
-                          <strong key={i} className="font-semibold">
+                          <strong key={i} className="font-jost">
                             {text}
                           </strong>
                         ) : (

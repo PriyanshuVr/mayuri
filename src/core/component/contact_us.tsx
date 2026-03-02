@@ -1,6 +1,5 @@
 "use client";
 
-import { Phone, Mail, Clock4, MapPin, House } from "lucide-react";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 
@@ -46,7 +45,7 @@ export default function ContactUs() {
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div>
-          <p className="text-black text-[32px] font-semibold">
+          <p className="text-[#372d1f] text-[64px] font-lora font-medium">
             Connect With Us
           </p>
           <div className="flex my-4">
@@ -55,7 +54,7 @@ export default function ContactUs() {
               alt="Phone"
               className="w-5 h-5 mx-2"
             />
-            <p className="text-black">+91 8750130940</p>
+            <p className="text-black font-jost">+91 8750130940</p>
           </div>
           <div className="flex my-4">
             <img
@@ -63,7 +62,7 @@ export default function ContactUs() {
               alt="Phone"
               className="w-5 h-5 mx-2"
             />
-            <p className="text-black">adv.mayuri97yadav@gmail.com</p>
+            <p className="text-black font-jost">adv.mayuri97yadav@gmail.com</p>
           </div>
           <div className="flex my-4">
             <img
@@ -72,10 +71,10 @@ export default function ContactUs() {
               className="w-5 h-5 mx-2"
             />
             <div className="flex flex-col">
-              <p className="text-black">
+              <p className="text-black font-jost">
                 Monday - Saturday | 10:00 AM - 7:00 PM
               </p>
-              <p className="text-[11px] block text-black">
+              <p className="text-[11px] block text-black font-jost">
                 ( Call for prior booking of appointment for consultation )
               </p>
             </div>
@@ -87,13 +86,13 @@ export default function ContactUs() {
               className="w-5 h-5 mx-2"
             />
             <div className="flex flex-col">
-              <p className="text-[18px] font-semibold text-black">
+              <p className="text-[18px] font-lora font-semibold text-black">
                 Office Address:
               </p>
-              <p className="text-black">
+              <p className="text-black font-jost">
                 Chamber No. A-10, A.N Monga Block, Western Wing,
               </p>
-              <p className="text-black">Tis Hazari Courts,Delhi - 110054</p>
+              <p className="text-black font-jost">Tis Hazari Courts,Delhi - 110054</p>
             </div>
           </div>
           <div className="flex my-4">
@@ -103,10 +102,10 @@ export default function ContactUs() {
               className="w-5 h-5 mx-2"
             />
             <div className="flex flex-col">
-              <p className="text-[18px] font-semibold text-black">
+              <p className="text-[18px] font-lora font-semibold text-black">
                 Residential-cum-Office:
               </p>
-              <p className="text-[15px] text-black">
+              <p className="text-[15px] text-black font-jost">
                 RZ-378, Street No. 6, East Sagarpur, New Delhi - 110046
               </p>
             </div>
@@ -114,7 +113,7 @@ export default function ContactUs() {
         </div>
         <div className="flex justify-start lg:justify-end">
           <div className="w-full max-w-md rounded-2xl bg-[#8b6a3f] p-6 shadow-lg">
-            <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
+            <form ref={formRef} onSubmit={handleSubmit} className="space-y-4 font-jost">
 
               <input
                 type="text"

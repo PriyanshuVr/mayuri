@@ -7,7 +7,7 @@ export default function Footer3() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-0 justify-items-start md:justify-items-center max-w-5xl mx-auto">
 
-        <div>
+        <div className="font-jost">
           <div className="flex items-center mb-1">
             <div className="w-2 h-2 bg-[#8f662d] rounded-full mx-2"></div>
             <div className="text-black">Legal Notice & Reply Drafting</div>

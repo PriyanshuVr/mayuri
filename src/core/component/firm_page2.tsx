@@ -34,7 +34,7 @@ export default function FirmPage2() {
             </span>
           </h2>
 
-          <p className="text-sm text-gray-700 leading-relaxed">
+          <p className="font-jost text-sm text-gray-700 leading-relaxed">
             Advocate Mayuri Yadav is a legal professional with extensive experience
             in providing legal counsel and representation.
           </p>
@@ -43,46 +43,46 @@ export default function FirmPage2() {
             Academic Qualifications:
           </p>
 
-          <p className="text-gray-700 leading-relaxed">
+          <p className="font-jost text-gray-700 leading-relaxed">
             Advocate Mayuri Yadav is a legal professional with extensive experience
             in providing legal counsel and representation.
           </p>
 
           <div className="flex items-start gap-3">
             <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
-            <div className="text-base text-gray-700">LL.M in Criminal Law - Amity University, Noida</div>
+            <div className="font-jost text-base text-gray-700">LL.M in Criminal Law - Amity University, Noida</div>
           </div>
           <div className="flex items-start gap-3">
             <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
-            <div className="text-base text-gray-700">B.A. LL.B (Hons.) - Maharishi Dayanand University, Rohtak</div>
+            <div className="font-jost text-base text-gray-700">B.A. LL.B (Hons.) - Maharishi Dayanand University, Rohtak</div>
           </div>
           <div className="flex items-start gap-3">
             <div className="w-2 h-2 mt-2 rounded-full bg-[#a48a5f] shrink-0"></div>
-            <div className="text-base text-gray-700">UGC-NET Qualified (2023)</div>
+            <div className="font-jost text-base text-gray-700">UGC-NET Qualified (2023)</div>
           </div>
-          <p className="text-xl sm:text-2xl font-bold text-[#372d1f]">
+          <p className="font-jost text-xl sm:text-2xl font-bold text-[#372d1f]">
             Publication:
           </p>
 
-          <p className="text-gray-700 leading-relaxed">
+          <p className="font-jost text-gray-700 leading-relaxed">
             “Sexual Harassment Against Males: An Ignored Sphere by Society” -
             International Journal for Legal Research and Analysis (ISSN 2582-6433)
           </p>
 
-          <p className="text-xl sm:text-2xl font-bold text-[#372d1f]">
+          <p className="font-jost text-xl sm:text-2xl font-bold text-[#372d1f]">
             Dissertation:
           </p>
 
-          <p className="text-gray-700 leading-relaxed">
+          <p className="font-jost text-gray-700 leading-relaxed">
             “Analytical Study on the Concept of Cyber Crime under Criminal Law of
             India with reference to IT Act, 2000”
           </p>
 
-          <p className="text-xl sm:text-2xl font-bold text-[#372d1f]">
+          <p className="font-jost text-xl sm:text-2xl font-bold text-[#372d1f]">
             Professional Strengths:
           </p>
 
-          <p className="text-gray-700 leading-relaxed">
+          <p className="font-jost text-gray-700 leading-relaxed">
             Known for delivering thorough legal research and preparing compelling
             arguments, contributing to favourable case resolutions. Experienced
             in legal research, case management, and client advocacy, utilizing

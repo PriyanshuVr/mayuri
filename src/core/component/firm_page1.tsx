@@ -10,7 +10,7 @@ export default function FirmPage1() {
             Client-Focused Legal Advocacy
           </h2>
 
-          <p className="text-sm text-gray-700 leading-relaxed">
+          <p className="font-jost text-sm text-gray-700 leading-relaxed">
             Mayuri Yadav and Associates: Client-Focused Legal Advocacy Mayuri
             Yadav and Associates is a new and emerging law firm of lawyers with
             extensive legal experience of more than 4 years, strategically based
@@ -21,7 +21,7 @@ export default function FirmPage1() {
             practical, and client-focused legal solutions.
           </p>
 
-          <p className="text-sm text-gray-700 leading-relaxed">
+          <p className="font-jost text-sm text-gray-700 leading-relaxed">
             Over the years, we have developed a reputation for combining thorough
             legal research with practical, result-oriented strategies. We
             continuously stay updated with the latest developments in law and

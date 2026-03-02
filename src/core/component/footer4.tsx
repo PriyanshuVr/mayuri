@@ -19,7 +19,7 @@ export default function Footer4() {
             Philosophy
           </h2>
 
-          <p className="italic text-[26px] md:text-[39px] font-semibold leading-relaxed">
+          <p className="italic text-[26px] md:text-[39px] font-jost leading-relaxed">
             “I believe every client deserves clarity, confidence, and care in
             their legal journey. My aim is not just to represent but to
             empower.”
