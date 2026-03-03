@@ -11,12 +11,12 @@ import HomeLast from "@/core/component/home_last";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "CLIENT TESTIMONIALS",
+  title: "Mayuri Yadav & Associates",
   description:
     "Read what clients say about Advocate Mayuri Yadav & Associates - trusted for clear guidance, professionalism, and strong legal representation in Delhi NCR.",
   keywords: [
     "Client Reviews",
-    "Advocate Mayuri Yadav & Associates – Trusted Legal Services in Delhi NCR",
+    "Advocate Mayuri Yadav & Associates - Trusted Legal Services in Delhi NCR",
   ],
 };
 
